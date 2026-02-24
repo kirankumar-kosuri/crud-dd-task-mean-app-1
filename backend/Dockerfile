@@ -32,6 +32,6 @@ COPY --chown=appuser:appgroup . .
 # Switch to non-root user
 USER appuser
 
-EXPOSE 8080
+EXPOSE 8081
 
 CMD ["node", "server.js"]
