@@ -30,7 +30,7 @@ COPY --from=builder /app/node_modules ./node_modules
 COPY --chown=appuser:appgroup . .
 
 # Switch to non-root user
-USER appuser
+# USER appuser
 
 EXPOSE 8081
 
