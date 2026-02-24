@@ -20,7 +20,7 @@ cd frontend
 
 npm install
 
-Run `ng serve --port 8081`
+Run `ng serve --port 8081'
 
 You can modify the `src/app/services/tutorial.service.ts` file to adjust how the frontend interacts with the backend.
 
